@@ -44,7 +44,7 @@ def main():
     DISPLAYSURF = pygame.display.set_mode((WINWIDTH, WINHEIGHT))
 
     pygame.display.set_caption('Star Pusher')
-    BASICFONT = pygame.font.Font('', 18)
+    BASICFONT = pygame.font.SysFont('', 18)
 
     # A global dict value that will contain all the Pygame
     # Surface objects returned by pygame.image.load().
