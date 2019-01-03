@@ -2,7 +2,7 @@ import random, sys, copy, os, pygame
 from pygame.locals import *
 
 
-class havefun(object):
+class Havefun(object):
     def __init__(self):
         pass
 
@@ -262,9 +262,7 @@ class havefun(object):
 
 
     def startScreen():
-        """Display the start screen (which has the title and instructions)
-        until the player presses a key. Returns None."""
-
+        
         # Position the title image.
         titleRect = IMAGESDICT['title'].get_rect()
         topCoord = 50  # topCoord tracks where to position the top of the text
