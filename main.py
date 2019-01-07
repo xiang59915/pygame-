@@ -1,3 +1,4 @@
+# 导入所需要的模块，其中自建的manager模块中直接导入类Havefun当中的所有方法及属性
 import random, sys, copy, os, pygame, manager
 from pygame.locals import *
 from manager.Havefun import *
