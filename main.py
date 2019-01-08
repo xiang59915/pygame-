@@ -14,7 +14,7 @@ TILEWIDTH = 50
 TILEHEIGHT = 85
 TILEFLOORHEIGHT = 40
 
-CAM_MOVE_SPEED = 5  # how many pixels per frame the camera moves
+CAM_MOVE_SPEED = 5  # 设置一个每次摄像头移动的速度，以像素量为单位
 
 # The percentage of outdoor tiles that have additional
 # decoration on them, such as a tree or rock.
