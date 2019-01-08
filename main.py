@@ -6,10 +6,10 @@ from manager.Havefun import *
 FPS = 60  # 设定一个刷新频率，一般60足够
 WINWIDTH = 800  # 所创建窗口的宽度，单位像素
 WINHEIGHT = 600  # 窗口高度，单位像素
-HALF_WINWIDTH = int(WINWIDTH / 2)
+HALF_WINWIDTH = int(WINWIDTH / 2) # 设置半宽与半高全局变量
 HALF_WINHEIGHT = int(WINHEIGHT / 2)
 
-# The total width and height of each tile in pixels.
+# 设置整个的标题的宽度和高度
 TILEWIDTH = 50
 TILEHEIGHT = 85
 TILEFLOORHEIGHT = 40
