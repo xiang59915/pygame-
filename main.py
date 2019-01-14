@@ -33,7 +33,7 @@ RIGHT = 'right'
 def main():
     global FPSCLOCK, DISPLAYSURF, IMAGESDICT, TILEMAPPING, OUTSIDEDECOMAPPING, BASICFONT, PLAYERIMAGES, currentImage
 
-    # Pygame initialization and basic set up of the global variables.
+    # Pygame 里面最初始基础的一个变量
     pygame.init()
     FPSCLOCK = pygame.time.Clock()
 
